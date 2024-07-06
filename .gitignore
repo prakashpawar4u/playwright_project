@@ -67,3 +67,4 @@ secrets.json
 # PyCharm specific
 .idea/
 __pycache__/
+.vscode/

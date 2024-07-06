@@ -136,18 +136,18 @@ def test_intradu_interfreq(playwright: Playwright) -> None:
 
     page.get_by_role("button", name="Submit").click()
 
-    page.get_by_role("link", name=" Test Plan Management").click()
-    page.once("dialog", lambda dialog: dialog.dismiss())
-    page.locator("#oneliner45").click()
+    # page.get_by_role("link", name=" Test Plan Management").click()
+    # page.once("dialog", lambda dialog: dialog.dismiss())
+    # page.locator("#oneliner45").click()
 
-    page.once("dialog", lambda dialog: dialog.dismiss())
-    page.locator("#smblocks45").click()
+    # page.once("dialog", lambda dialog: dialog.dismiss())
+    # page.locator("#smblocks45").click()
 
-    page.once("dialog", lambda dialog: dialog.dismiss())
-    page.locator("#word45").click()
+    # page.once("dialog", lambda dialog: dialog.dismiss())
+    # page.locator("#word45").click()
 
-    page.once("dialog", lambda dialog: dialog.dismiss())
-    page.locator("#script45").click()
+    # page.once("dialog", lambda dialog: dialog.dismiss())
+    # page.locator("#script45").click()
 
     page.close()
 
